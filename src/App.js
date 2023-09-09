@@ -1,12 +1,10 @@
 import './App.css'
-import DarkMode from './02-dark-mode/DarkMode'
-import ColorRenderer from './01-color-renderer/ColorRenderer'
+import FormValidator from './03-form-validator/FormValidator'
 
 function App () {
   return (
     <div className='App'>
-      <DarkMode />
-      {/* <ColorRenderer /> */}
+      <FormValidator />
     </div>
   )
 }
